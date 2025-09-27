@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab 3</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+<form>
+    <lable for="username">Full Name:</lable> 
+    <input type="text" id="username" placeholder="USERNAME" required>
+    <br>
+    <br>
+    <lable for="Email">Email:</lable> 
+    <input type="Email" name="" id="Email"  placeholder="EMAIL" required>  
+    <br>
+    <lable for="Password">Password:</lable>
+    <input type="password" name="" id="password" minlength="6" maxlength="10" required>  
+    <br>
+    <label for="mobile"> Mobile:</label>
+    <input type="number" name="" id="mobile" min="5000000000" max="9999999999" required> 
+    <br>
+    <lable for="dob">DOB</lable>
+    <input type="date" name="" id="dob" required>
+    <br>
+    <br>
+    <lable for="age">Age</lable>
+    <input type="number" name="" id="age"  placeholder="AGE" min="18" max="35" required>
+    <br>
+    <br>
+    <lable for="gender">Gender:</lable>
+
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others  
+    <br>
+    <br>
+    <lable for="bio">Bio:</lable>
+      <textarea id="bio" name="bio" rows="4" required></textarea>
+    <br>
+    <br>
+
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
